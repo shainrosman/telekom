@@ -106,7 +106,7 @@
                                 <option value="{{$data->id}}">{{$data->name}}</option>
                             @endforeach
                         </select>
-                        @if ($errors->has('state'))
+                        @if ($errors->has('state')) 
                             <span class="help-block" id="vehicles_year_error">
                                 {{ $errors->first('state') }}
                             </span>

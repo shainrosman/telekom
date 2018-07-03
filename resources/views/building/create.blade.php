@@ -68,10 +68,7 @@
                         <label>Description</label>
                     </div>
                     <div class="col-md-8 col-xs-12">                        
-                         @include('component.form.input', [
-                            'name' => 'description',
-                            'value' => ''
-                        ])
+                         <textarea rows="4" class="form-control"></textarea>
                     </div>
                 </div>
             </div>
