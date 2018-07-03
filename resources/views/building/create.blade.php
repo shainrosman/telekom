@@ -68,7 +68,7 @@
                         <label>Description</label>
                     </div>
                     <div class="col-md-8 col-xs-12">                        
-                         <textarea rows="4" class="form-control"></textarea>
+                         <textarea rows="4" class="form-control" name="description"></textarea>
                     </div>
                 </div>
             </div>
